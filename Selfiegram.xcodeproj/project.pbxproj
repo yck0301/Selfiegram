@@ -15,6 +15,8 @@
 		FF06B59C21FAFF76006CB86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF06B59A21FAFF76006CB86D /* LaunchScreen.storyboard */; };
 		FF06B5A721FAFF76006CB86D /* SelfiegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06B5A621FAFF76006CB86D /* SelfiegramTests.swift */; };
 		FF06B5B221FAFF76006CB86D /* SelfiegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06B5B121FAFF76006CB86D /* SelfiegramUITests.swift */; };
+		FF0C1A28220198FD009771D2 /* SelfieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C1A27220198FD009771D2 /* SelfieStore.swift */; };
+		FF4963DC22044DF000886A9E /* SelfieStoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4963D922042D5600886A9E /* SelfieStoreTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FF06B5AD21FAFF76006CB86D /* SelfiegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF06B5B121FAFF76006CB86D /* SelfiegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfiegramUITests.swift; sourceTree = "<group>"; };
 		FF06B5B321FAFF76006CB86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0C1A27220198FD009771D2 /* SelfieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieStore.swift; sourceTree = "<group>"; };
+		FF4963D922042D5600886A9E /* SelfieStoreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieStoreTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				FF06B59821FAFF76006CB86D /* Assets.xcassets */,
 				FF06B59A21FAFF76006CB86D /* LaunchScreen.storyboard */,
 				FF06B59D21FAFF76006CB86D /* Info.plist */,
+				FF0C1A27220198FD009771D2 /* SelfieStore.swift */,
 			);
 			path = Selfiegram;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 		FF06B5A521FAFF76006CB86D /* SelfiegramTests */ = {
 			isa = PBXGroup;
 			children = (
+				FF4963D922042D5600886A9E /* SelfieStoreTest.swift */,
 				FF06B5A621FAFF76006CB86D /* SelfiegramTests.swift */,
 				FF06B5A821FAFF76006CB86D /* Info.plist */,
 			);
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF06B59421FAFF75006CB86D /* DetailViewController.swift in Sources */,
+				FF0C1A28220198FD009771D2 /* SelfieStore.swift in Sources */,
 				FF06B59221FAFF75006CB86D /* MasterViewController.swift in Sources */,
 				FF06B59021FAFF75006CB86D /* AppDelegate.swift in Sources */,
 			);
@@ -270,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF06B5A721FAFF76006CB86D /* SelfiegramTests.swift in Sources */,
+				FF4963DC22044DF000886A9E /* SelfieStoreTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F552V3L2MY;
 				INFOPLIST_FILE = Selfiegram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F552V3L2MY;
 				INFOPLIST_FILE = Selfiegram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
